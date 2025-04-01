@@ -25,15 +25,15 @@ require (
 	github.com/prometheus/client_golang v1.14.0
 	github.com/prometheus/client_model v0.3.0
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399
-	github.com/weppos/publicsuffix-go v0.30.0
+	github.com/weppos/publicsuffix-go v0.40.3-0.20250311103038-7794c8c0723b
 	github.com/zmap/zcrypto v0.0.0-20220402174210-599ec18ecbac
 	github.com/zmap/zlint/v3 v3.4.0
-	golang.org/x/crypto v0.1.0
+	golang.org/x/crypto v0.36.0
 	golang.org/x/exp v0.0.0-20230118134722-a68e582fa157
-	golang.org/x/net v0.7.0
-	golang.org/x/sync v0.1.0
-	golang.org/x/term v0.5.0
-	golang.org/x/text v0.7.0
+	golang.org/x/net v0.37.0
+	golang.org/x/sync v0.12.0
+	golang.org/x/term v0.30.0
+	golang.org/x/text v0.23.0
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/go-jose/go-jose.v2 v2.6.1
@@ -73,9 +73,9 @@ require (
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	golang.org/x/mod v0.6.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/tools v0.2.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c // indirect
 	gopkg.in/alexcesaro/statsd.v2 v2.0.0 // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
