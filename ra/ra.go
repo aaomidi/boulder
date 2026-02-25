@@ -2043,8 +2043,10 @@ func (ra *RegistrationAuthorityImpl) AdministrativelyRevokeCertificate(ctx conte
 			if err != nil {
 				return nil, err
 			}
+			// Fall through to addToBlockedKeys below.
+		} else {
+			return nil, err
 		}
-		return nil, err
 	}
 
 	if reasonCode == revocation.KeyCompromise && !req.SkipBlockKey {
